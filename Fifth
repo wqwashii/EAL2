@@ -1,0 +1,7 @@
+print(round(9.8))
+print(abs(-7.25))
+import math
+print(math.sqrt(16))
+
+print(min(5, 10, 25))
+print(max(5, 10, 25))

@@ -1,0 +1,8 @@
+KitabinIsmi = "Moby Dick" #string
+SayfaSayisi = 195 #integer
+Kutle = 13.45 #float
+Yeni = True #boolean
+print(type(KitabinIsmi))
+print(type(SayfaSayisi))
+print(type(Kutle))
+print(type(Yeni))

@@ -1,0 +1,17 @@
+driverlicense = False
+car = False
+if driverlicense and car:
+    print("Araba kullanabilirim.")
+elif driverlicense or car:
+    print("Araba kullanmak için tek bir şey gerekiyor.")
+else:
+    print("Araba kullanamam.")
+
+if driverlicense and car:
+    print("Araba kullanabilirim.")
+elif driverlicense and not car:
+    print("Araba kullanmak için araba gerekiyor.")
+elif not driverlicense and car:
+    print("Araba kullanmak için ehliyet gerekiyor.")
+else:
+    print("Araba kullanamam.")

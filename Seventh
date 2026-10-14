@@ -1,0 +1,29 @@
+yağmur = input("Hava yağmurlu mu?(Evet/Hayır) ").upper()
+if yağmur == "EVET":
+    print("Şemsiyeni almayı unutma!")
+elif yağmur == "HAYIR":
+    print("Şemsiye almana gerek yok.")
+else:
+    print('Lütfen "Evet" veya "Hayır" olarak cevap veriniz.')
+
+favKırmızı = True
+favYeşil = True
+favMavi = True
+if favKırmızı:
+    print("Kırmızı favori rengimdir.")
+elif favYeşil:
+    print("Yeşil favori rengimdir.")
+elif favMavi:
+    print("Mavi favori rengimdir.")
+else:
+    print("Favori rengim yok.")
+
+mantı = True
+sarma = False
+et = True
+if mantı:
+    print("Mantıyı çok severim.")
+if sarma:
+    print("Sarmayı çok severim.")
+if et:
+    print("Et yemeyi çok severim.")

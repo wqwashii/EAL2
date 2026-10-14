@@ -1,0 +1,7 @@
+x = int(input("Pozitif bir sayı giriniz: "))
+y = x**0.5
+asalmi = lambda x: x > 1 and all(x % i != 0 for i in range(2, int(y) + 1))
+if asalmi(x):
+    print(f"{x} bir asal sayıdır.")
+else:
+    print(f"{x} bir asal sayı değildir.")

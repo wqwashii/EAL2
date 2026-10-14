@@ -1,0 +1,17 @@
+x = int(input("İlk sayıyı giriniz: "))
+y = int(input("İkinci sayıyı giriniz: "))
+z = input("İşlem türünü giriniz (+, -, *, /, %, **, //): ")
+if z == "+":
+    print("Toplam: ", x + y)
+elif z == "-":
+    print("Fark: ", x - y)
+elif z == "*":
+    print("Çarpım: ", x * y)
+elif z == "/":
+    print("Bölüm: ", x / y)
+elif z == "%":
+    print("Kalan: ", x % y)
+elif z == "**":
+    print("Üs: ", x ** y)
+elif z == "//":
+    print("Tamsayı Bölüm: ", x // y)

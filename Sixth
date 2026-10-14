@@ -1,0 +1,27 @@
+isim = 'Omer "Bicer"'
+print(isim)
+
+mektup = """Merhaba,
+Ben Omer Bicer. Python öğreniyorum."""
+
+print(isim[0]) #ilk karakteri yazdırır
+print(isim[1]) #ikinci karakteri yazdırır
+print(isim[-1]) #son karakteri yazdırır
+print(isim[0:4]) #ilk 4 karakteri yazdırır
+print(isim[5:]) #5. karakterden sonrasını yazdırır
+print(isim[:5]) #ilk 5 karakteri yazdırır
+print(isim[::2]) #2 karakterde bir yazdırır
+print(isim[::-1]) #tersten yazdırır
+print(isim[-12:-8]) #-12. karakterden -8. karaktere kadar yazdırır
+
+print(len(mektup)) #mektup değişkeninin uzunluğunu yazdırır
+print(mektup.title()) #mektup değişkeninin başlık formatında yazdırır
+print(mektup.upper()) #mektup değişkenini büyük harflerle yazdırır
+print(mektup.lower()) #mektup değişkenini küçük harflerle yazdırır
+print(mektup.find("Omer")) #mektup değişkeninde "Omer" kelimesinin başladığı indexi yazdırır
+print(mektup.replace("Omer", "Fatih")) #mektup değişkeninde "Omer" kelimesini "Fatih" ile değiştirir
+
+isimm = input("Isminizi giriniz: ")
+print("Merhaba, " + isimm.title())
+#=
+print("Merhaba, " + input("Isminizi giriniz: ").title())

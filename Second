@@ -1,0 +1,4 @@
+isim = input("Isminizi giriniz: ") #input fonksiyonu ile kullanıcıdan isim alıyoruz
+print("Merhaba, " + isim)
+yemek = input("En sevdiğiniz yemeği giriniz: ")
+print(isim + " " + yemek + " sever")

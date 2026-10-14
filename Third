@@ -1,0 +1,8 @@
+isim = "Omer"
+yas = 16
+print(isim + " " + str(yas) + " yasinda")
+
+#int() #fonksiyonu ile bir string ifadeyi integer'a dönüştürebiliriz. Örneğin, "16" stringini int("16") ile 16 integerına çevirebiliriz.
+#float() #fonksiyonu ile bir string ifadeyi float'a dönüştürebiliriz. Örneğin, "13.45" stringini float("13.45") ile 13.45 floatına çevirebiliriz. 
+#str() #fonksiyonu ile bir integer veya float ifadeyi string'e dönüştürebiliriz. Örneğin, 16 integerını str(16) ile "16" stringine çevirebiliriz.
+#bool() #fonksiyonu ile bir ifadeyi boolean'a dönüştürebiliriz. Örneğin, 1 integerını bool(1) ile True booleanına çevirebiliriz.

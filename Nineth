@@ -1,0 +1,8 @@
+yas = int(input("Yaşınızı giriniz: "))
+okul = input("Okulda mı okuyorsunuz? (E/H): ").upper() == "E"
+if yas >= 18 and not okul:
+    print("Askere gelme yaşınız geldi")
+elif yas >= 18 and okul:
+    print("Okulunuz bittiğinde askere geleceksiniz")
+else:
+    print("Askere gelme yaşınız gelmedi.")

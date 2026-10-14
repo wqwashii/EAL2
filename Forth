@@ -1,0 +1,19 @@
+#x = 10
+#y = 20
+#print(x + y)
+#print(x - y)
+#print(x * y)
+#print(x / y)
+#print(x // y)
+#print(x % y)
+#print(x ** y)
+
+x = input("Bir sayı giriniz: ") #input fonksiyonu ile kullanıcıdan bir sayı alıyoruz
+y = input("Başka bir sayı giriniz: ") #input fonksiyonu ile kullanıcıdan bir sayı alıyoruz
+print("x + y = " + str(int(x) + int(y))) #int() fonksiyonu ile string ifadeyi integer'a dönüştürüyoruz ve toplama işlemi yapıyoruz
+print("x - y = " + str(int(x) - int(y))) #int() fonksiyonu ile string ifadeyi integer'a dönüştürüyoruz ve çıkarma işlemi yapıyoruz
+print("x * y = " + str(int(x) * int(y))) #int() fonksiyonu ile string ifadeyi integer'a dönüştürüyoruz ve çarpma işlemi yapıyoruz
+print("x / y = " + str(int(x) / int(y))) #int() fonksiyonu ile string ifadeyi integer'a dönüştürüyoruz ve bölme işlemi yapıyoruz
+print("x // y = " + str(int(x) // int(y))) #int() fonksiyonu ile string ifadeyi integer'a dönüştürüyoruz ve tam bölme işlemi yapıyoruz
+print("x % y = " + str(int(x) % int(y))) #int() fonksiyonu ile string ifadeyi integer'a dönüştürüyoruz ve modül işlemi yapıyoruz
+print("x ** y = " + str(int(x) ** int(y))) #int() fonksiyonu ile string ifadeyi integer'a dönüştürüyoruz ve üs işlemi yapıyoruz

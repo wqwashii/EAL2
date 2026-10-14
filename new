@@ -1,0 +1,6 @@
+x = input("x sayısını giriniz: ")
+y = input("y sayısını giriniz: ")
+if x.isdigit() and y.isdigit():
+    print("x + y = " + str(int(x) + int(y)))
+else:
+    print("Lütfen sayısal değerler giriniz.")

@@ -1,0 +1,29 @@
+x = float(input("x değerini giriniz: "))
+z = input("""yapılacak işlemi giriniz;
+Toplama için: +
+Çıkarma için: -
+Çarpma için: *
+Bölme için: /
+Üs alma için: üs
+kök alma için: kök
+""").upper()
+y = float(input("y değerini giriniz: "))
+if z == "/" and y == 0:
+    print(f"{x} / {y} = Tanımsız")
+elif x == 8828 and y == 8828 and z == "8828":
+    print("""
+    -----------
+    EAL ROBOTİK
+    -----------""")
+elif z == "+":
+    print(f"{x} + {y} = {x + y}")
+elif z == "-":
+    print(f"{x} - {y} = {x - y}")
+elif z == "*":
+    print(f"{x} * {y} = {x * y}")
+elif z == "/":
+    print(f"{x} / {y} = {x / y}")
+elif z == "ÜS":
+    print(f"{x} ** {y} = {x ** y}")
+elif z == "KÖK":
+    print(f"{x} ** (1/{y}) = {x ** (1/y)}")
